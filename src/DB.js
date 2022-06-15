@@ -1,25 +1,25 @@
-// export const subjectDB = [
-//   {
-//     id: 0,
-//     subjectTitle: "HTML",
-//   },
-//   {
-//     id: 1,
-//     subjectTitle: "CSS",
-//   },
-//   {
-//     id: 2,
-//     subjectTitle: "JS",
-//   },
-//   {
-//     id: 3,
-//     subjectTitle: "Nodejs",
-//   },
-//   {
-//     id: 4,
-//     subjectTitle: "React",
-//   },
-// ];
+export const subjectDB = [
+  {
+    id: 0,
+    subjectTitle: "HTML",
+  },
+  {
+    id: 1,
+    subjectTitle: "CSS",
+  },
+  {
+    id: 2,
+    subjectTitle: "JS",
+  },
+  {
+    id: 3,
+    subjectTitle: "Nodejs",
+  },
+  {
+    id: 4,
+    subjectTitle: "React",
+  },
+];
 
 export const MenuDB = [
   {
