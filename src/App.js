@@ -6,10 +6,14 @@ import {
   FnComponent_2,
 } from "./components/2_component/FnComponent";
 import { MenuEx } from "./components/3_props/MenuEx";
-import { MenuDB } from "./DB";
+import { kakaoDB, MenuDB, todayMenu } from "./DB";
 import { Menus } from "./components/3_props/Menus";
 import { Subject } from "./components/3_props/subject";
 import { subjectDB } from "./DB";
+import { FoodMenu } from "./components/4_map/FoodMenu";
+import { Kakao } from "./components/4_map/Kakao";
+import { KakaoDB } from "./DB";
+import { Content } from "./components/4_map/Content";
 
 const App = () => {
   return (
@@ -25,8 +29,11 @@ const App = () => {
 
       {/* <Menus /> */}
       {/* <Subject sub={subjectDB} /> */}
-      <MenuEx menu={MenuDB} />
+      {/* <MenuEx menu={MenuDB} /> */}
       {/* 3일차 */}
+      {/* <FoodMenu menus={MenuDB} /> */}
+      {/* <Kakao kakaoData={KakaoDB} /> */}
+      <Content />
     </div>
   );
 };
