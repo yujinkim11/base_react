@@ -6,7 +6,7 @@ import {
   FnComponent_2,
 } from "./components/2_component/FnComponent";
 import { MenuEx } from "./components/3_props/MenuEx";
-import { kakaoDB, MenuDB, todayMenu } from "./DB";
+import { kakaoDB, LanguageDB, MenuDB, todayMenu } from "./DB";
 import { Menus } from "./components/3_props/Menus";
 import { Subject } from "./components/3_props/subject";
 import { subjectDB } from "./DB";
@@ -15,11 +15,13 @@ import { Kakao } from "./components/4_map/Kakao";
 import { KakaoDB } from "./DB";
 import { Content } from "./components/4_map/Content";
 import { GlobalStyled } from "./styles/GlobalStyled";
+import { MapEx } from "./components/4_map/MapEx";
+import { LangDB } from "./DB";
 
 const App = () => {
   return (
     <div>
-      <GlobalStyled />
+      {/* <GlobalStyled /> */}
       {/* <TagRule /> */}
       {/* 1일차    */}
 
@@ -35,7 +37,8 @@ const App = () => {
       {/* 3일차 */}
       {/* <FoodMenu menus={MenuDB} /> */}
       {/* <Kakao kakaoData={KakaoDB} /> */}
-      <Content />
+      {/* <Content /> */}
+      <MapEx data={LangDB} />
     </div>
   );
 };
