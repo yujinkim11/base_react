@@ -14,10 +14,12 @@ import { FoodMenu } from "./components/4_map/FoodMenu";
 import { Kakao } from "./components/4_map/Kakao";
 import { KakaoDB } from "./DB";
 import { Content } from "./components/4_map/Content";
+import { GlobalStyled } from "./styles/GlobalStyled";
 
 const App = () => {
   return (
     <div>
+      <GlobalStyled />
       {/* <TagRule /> */}
       {/* 1일차    */}
 
