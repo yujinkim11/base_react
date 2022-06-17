@@ -18,6 +18,8 @@ import { MapEx } from "./components/4_map/MapEx";
 import { LangDB } from "./DB";
 import { ConEx } from "./components/4_map/ConEx";
 import { GlobalStyled } from "./styles/GlobalStyled";
+import { Icons } from "./components/5_MusicApp.js/Icons";
+import { IconEx } from "./components/5_MusicApp.js/IconEx";
 
 const App = () => {
   return (
@@ -40,7 +42,9 @@ const App = () => {
       {/* <Kakao kakaoData={KakaoDB} /> */}
       {/* <Content /> */}
       {/* <MapEx data={LangDB} /> */}
-      <ConEx conData={LangDB} />
+      {/* <ConEx conData={LangDB} /> */}
+      {/* <Icons /> */}
+      <IconEx />
     </div>
   );
 };
