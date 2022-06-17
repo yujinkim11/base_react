@@ -14,14 +14,15 @@ import { FoodMenu } from "./components/4_map/FoodMenu";
 import { Kakao } from "./components/4_map/Kakao";
 import { KakaoDB } from "./DB";
 import { Content } from "./components/4_map/Content";
-import { GlobalStyled } from "./styles/GlobalStyled";
 import { MapEx } from "./components/4_map/MapEx";
 import { LangDB } from "./DB";
+import { ConEx } from "./components/4_map/ConEx";
+import { GlobalStyled } from "./styles/GlobalStyled";
 
 const App = () => {
   return (
     <div>
-      {/* <GlobalStyled /> */}
+      <GlobalStyled />
       {/* <TagRule /> */}
       {/* 1일차    */}
 
@@ -38,7 +39,8 @@ const App = () => {
       {/* <FoodMenu menus={MenuDB} /> */}
       {/* <Kakao kakaoData={KakaoDB} /> */}
       {/* <Content /> */}
-      <MapEx data={LangDB} />
+      {/* <MapEx data={LangDB} /> */}
+      <ConEx conData={LangDB} />
     </div>
   );
 };

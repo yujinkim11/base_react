@@ -7,9 +7,13 @@ ${reset}
 *{
     box-sizing: border-box;
 }
+
+a{
+ text-decoration : none;
+}
 `;
 
-export const mainStyle = {
-  color: "#1363DF",
-  fontSize: "26px",
-};
+// export const mainStyle = {
+//   color: "#1363DF",
+//   fontSize: "26px",
+// };
