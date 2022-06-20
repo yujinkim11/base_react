@@ -24,6 +24,7 @@ import { Music } from "./components/5_MusicApp.js/Music";
 import { ClassEvent } from "./components/6_Event/ClassEvent";
 import { FnEvent } from "./components/6_Event/FnEvent";
 import { ColorEx } from "./components/6_Event/ColorEx";
+import { ChoiceColor } from "./components/6_Event/ChoiceColor";
 
 const App = () => {
   return (
@@ -52,7 +53,8 @@ const App = () => {
       {/* <Music /> */}
       {/* <ClassEvent /> */}
       {/* <FnEvent /> */}
-      <ColorEx />
+      {/* <ColorEx /> */}
+      <ChoiceColor />
     </div>
   );
 };
