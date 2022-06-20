@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const Sheader = styled.header`
+  width: 100%;
   display: flex;
   justify-content: space-between;
 `;
