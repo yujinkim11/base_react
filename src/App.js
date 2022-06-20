@@ -21,6 +21,7 @@ import { GlobalStyled } from "./styles/GlobalStyled";
 import { Icons } from "./components/5_MusicApp.js/Icons";
 import { IconEx } from "./components/5_MusicApp.js/IconEx";
 import { Music } from "./components/5_MusicApp.js/Music";
+import { ClassEvent } from "./components/6_Event/ClassEvent";
 
 const App = () => {
   return (
@@ -46,7 +47,8 @@ const App = () => {
       {/* <ConEx conData={LangDB} /> */}
       {/* <Icons /> */}
       {/* <IconEx /> */}
-      <Music />
+      {/* <Music /> */}
+      <ClassEvent />
     </div>
   );
 };
