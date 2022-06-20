@@ -5,7 +5,7 @@ const BtnWrap = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 35px;
+  margin-top: 10px;
 `;
 
 const Items = styled.div`
