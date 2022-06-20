@@ -1,7 +1,26 @@
 import styled from "styled-components";
 
-const BtnWrap = styled.div``;
-const Items = styled.div``;
+const BtnWrap = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+`;
+
+const Items = styled.div`
+  font-size: 15px;
+  &:nth-child(3) {
+    width: 50px;
+    height: 50px;
+    background-color: mediumseagreen;
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+`;
 
 export const ButtonWrap = () => {
   return (
