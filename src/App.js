@@ -23,6 +23,7 @@ import { IconEx } from "./components/5_MusicApp.js/IconEx";
 import { Music } from "./components/5_MusicApp.js/Music";
 import { ClassEvent } from "./components/6_Event/ClassEvent";
 import { FnEvent } from "./components/6_Event/FnEvent";
+import { ColorEx } from "./components/6_Event/ColorEx";
 
 const App = () => {
   return (
@@ -50,7 +51,8 @@ const App = () => {
       {/* <IconEx /> */}
       {/* <Music /> */}
       {/* <ClassEvent /> */}
-      <FnEvent />
+      {/* <FnEvent /> */}
+      <ColorEx />
     </div>
   );
 };
