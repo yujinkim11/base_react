@@ -8,6 +8,10 @@ ${reset}
     box-sizing: border-box;
 }
 
+body{
+    background-color: #555;
+}
+
 a{
  text-decoration : none;
 }

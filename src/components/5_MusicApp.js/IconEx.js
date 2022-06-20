@@ -93,12 +93,14 @@ const BarWrap = styled.div`
 const Playbar = styled.div`
   width: 315px;
   height: 8px;
+  border-radius: 5px;
   background-color: #73777b;
 `;
 
 const Purplebar = styled.div`
   width: 35px;
   height: 8px;
+  border-radius: 5px;
   background-color: #9ba3eb;
 `;
 

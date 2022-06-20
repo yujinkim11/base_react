@@ -20,6 +20,7 @@ import { ConEx } from "./components/4_map/ConEx";
 import { GlobalStyled } from "./styles/GlobalStyled";
 import { Icons } from "./components/5_MusicApp.js/Icons";
 import { IconEx } from "./components/5_MusicApp.js/IconEx";
+import { Music } from "./components/5_MusicApp.js/Music";
 
 const App = () => {
   return (
@@ -44,7 +45,8 @@ const App = () => {
       {/* <MapEx data={LangDB} /> */}
       {/* <ConEx conData={LangDB} /> */}
       {/* <Icons /> */}
-      <IconEx />
+      {/* <IconEx /> */}
+      <Music />
     </div>
   );
 };
