@@ -22,6 +22,7 @@ import { Icons } from "./components/5_MusicApp.js/Icons";
 import { IconEx } from "./components/5_MusicApp.js/IconEx";
 import { Music } from "./components/5_MusicApp.js/Music";
 import { ClassEvent } from "./components/6_Event/ClassEvent";
+import { FnEvent } from "./components/6_Event/FnEvent";
 
 const App = () => {
   return (
@@ -48,7 +49,8 @@ const App = () => {
       {/* <Icons /> */}
       {/* <IconEx /> */}
       {/* <Music /> */}
-      <ClassEvent />
+      {/* <ClassEvent /> */}
+      <FnEvent />
     </div>
   );
 };
