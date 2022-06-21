@@ -1,4 +1,4 @@
-import TagRule from "./components/1_JsxRule/TagRule";
+import TagRule from "./components/1_jsxRule/TagRule";
 import ClassComponent from "./components/2_component/ClassComponent";
 // import FnComponent from "./components/2_component/FnComponent";
 import {
@@ -27,6 +27,8 @@ import { ColorEx } from "./components/6_Event/ColorEx";
 import { ChoiceColor } from "./components/6_Event/ChoiceColor";
 import { Instagram } from "./components/6_Event/Instagram";
 import { Animation } from "./components/6_Event/Animation";
+import { BaseRouter } from "./components/7_router/BaseRouter";
+import { RouteBase } from "./components/routeEx/RouteBase";
 
 const App = () => {
   return (
@@ -45,20 +47,30 @@ const App = () => {
       {/* <Subject sub={subjectDB} /> */}
       {/* <MenuEx menu={MenuDB} /> */}
       {/* 3일차 */}
+
       {/* <FoodMenu menus={MenuDB} /> */}
       {/* <Kakao kakaoData={KakaoDB} /> */}
       {/* <Content /> */}
       {/* <MapEx data={LangDB} /> */}
       {/* <ConEx conData={LangDB} /> */}
+      {/* 4일차 */}
+
       {/* <Icons /> */}
       {/* <IconEx /> */}
       {/* <Music /> */}
       {/* <ClassEvent /> */}
       {/* <FnEvent /> */}
+      {/* 5일차 */}
+
       {/* <ColorEx /> */}
       {/* <ChoiceColor /> */}
       {/* <Instagram /> */}
-      <Animation />
+      {/* <Animation /> */}
+      {/* 6일차 */}
+
+      {/* <BaseRouter /> */}
+      {/* <RouterBase /> */}
+      <RouteBase />
     </div>
   );
 };
