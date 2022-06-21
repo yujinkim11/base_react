@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -15,24 +16,50 @@ const Logo = styled.div`
   color: #1d1d1d;
 `;
 
-const Menu = styled.p`
-  font-size: 15px;
-  font-weight: 700;
-  color: #1d1d1d;
+const MenuIcon = styled.div`
+  cursor: pointer;
+`;
+
+const HiddenMenu = styled.div`
+  display: ${(props) => props.hidden};
+`;
+
+const MenuWrap = styled.div`
+  width: 20%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+`;
+
+const BtnMenu = styled.div`
+  font-size: 24px;
+  color: white;
+  margin: 30px 30px;
 `;
 
 export const Navi = () => {
+  const [hidden, setHidden] = useState("none");
+  console.log(hidden);
+
+  const handleMenu = () => setHidden("flex");
+
   return (
-    <Wrap>
-      <Link to="/">
-        <Logo>HERA</Logo>
-      </Link>
-      <Link to="/menu1">
-        <Menu>메뉴1</Menu>
-      </Link>
-      <Link to="/menu2">
-        <Menu>메뉴2</Menu>
-      </Link>
-    </Wrap>
+    <>
+      <Wrap>
+        <Link to="/">
+          <Logo>HERA</Logo>
+        </Link>
+        <MenuIcon onClick={handleMenu}>
+          <i class="fa-solid fa-bars"></i>
+        </MenuIcon>
+      </Wrap>
+
+      <HiddenMenu>
+        <MenuWrap>
+          <BtnMenu>메뉴1</BtnMenu>
+          <BtnMenu>메뉴2</BtnMenu>
+        </MenuWrap>
+      </HiddenMenu>
+    </>
   );
 };
