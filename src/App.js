@@ -25,6 +25,8 @@ import { ClassEvent } from "./components/6_Event/ClassEvent";
 import { FnEvent } from "./components/6_Event/FnEvent";
 import { ColorEx } from "./components/6_Event/ColorEx";
 import { ChoiceColor } from "./components/6_Event/ChoiceColor";
+import { Instagram } from "./components/6_Event/Instagram";
+import { Animation } from "./components/6_Event/Animation";
 
 const App = () => {
   return (
@@ -54,7 +56,9 @@ const App = () => {
       {/* <ClassEvent /> */}
       {/* <FnEvent /> */}
       {/* <ColorEx /> */}
-      <ChoiceColor />
+      {/* <ChoiceColor /> */}
+      {/* <Instagram /> */}
+      <Animation />
     </div>
   );
 };

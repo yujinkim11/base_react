@@ -12,7 +12,6 @@ const Wrap = styled.div`
 const Box = styled.div`
   width: 300px;
   height: 300px;
-  background-color: aquamarine;
   margin-bottom: 20px;
 `;
 
@@ -26,7 +25,7 @@ export const ChoiceColor = () => {
   return (
     <Wrap>
       <h3>버튼을 눌러 색상을 골라보세요</h3>
-      <Box></Box>
+      <Box bgColor="salmon"></Box>
       <BtnWrap>
         <button style={{ width: "70px", height: "30px" }}>빨강</button>
         <button style={{ width: "70px", height: "30px" }}>노랑</button>
