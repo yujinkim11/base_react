@@ -28,7 +28,7 @@ import { ChoiceColor } from "./components/6_Event/ChoiceColor";
 import { Instagram } from "./components/6_Event/Instagram";
 import { Animation } from "./components/6_Event/Animation";
 import { BaseRouter } from "./components/7_router/BaseRouter";
-import { RouteBase } from "./components/routeEx/RouteBase";
+import { LayoutRouter, Router } from "./components/8_BaseLayout/LayoutRouter";
 
 const App = () => {
   return (
@@ -69,8 +69,10 @@ const App = () => {
       {/* 6일차 */}
 
       {/* <BaseRouter /> */}
-      {/* <RouterBase /> */}
-      <RouteBase />
+      {/* <RouteBase /> */}
+      {/* 7일차 */}
+
+      <LayoutRouter />
     </div>
   );
 };
